@@ -1,0 +1,175 @@
+@import 'utilities.css';
+
+:root
+{
+  --primary:#3DCFD3;
+  --dark:#161616;
+  --pure:#FFFFFF;
+  --ternary:#898989;
+  --light:#F2F2F2;
+  --secondary:#070606;
+}
+
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  background: var(--dark);
+  margin-top:0;
+  height: 500px;
+  clip-path:polygon(0 0,100% 0,100% 100%,85% 80%,0 100%);
+}
+
+.container{
+  max-width: 1150px;
+  padding: 0 15px;
+  margin:0 auto;
+}
+
+header nav .left a{
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+header nav .left a:hover{
+  color: var(--primary);
+}
+
+header nav{
+  padding:2rem 0;
+}
+
+header nav .branding{
+  margin-right: 4rem;
+}
+
+.wallpaper .left img{
+  width:300px;
+  border-radius: 50%;
+  border: 7px solid var(--primary);
+}
+
+
+.wallpaper .right h2{
+  color:var(--pure);
+}
+
+.wallpaper .right h1{
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+.wallpaper .right hi{
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+
+}
+.wallpaper .right{
+  padding-left: 250px;
+  margin-top: 1rem;
+}
+
+section{
+  padding: 6rem 0;
+
+}
+
+section.about h1{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+section.about h1 span{
+  color: var(--primary)
+}
+
+section.about h3{
+  font-size: 1rem;
+  margin-bottom: .3rem;
+  font-weight: 600;
+}
+
+.about .about1 .me{
+  text-align: left;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  padding-bottom: 0;
+}
+
+section.about p{
+  font-family: 'Lato',sans-serif;
+  color: var(--ternary);
+  line-height: 1.5;
+}
+
+section.Intrests{
+  padding-top: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  background: var(--light)
+}
+
+.section-heading{
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: .5;
+}
+
+.section-heading + p{
+  color: var(--ternary);
+  font-family: 'Lato',sans-serif;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.section-heading span{
+  color: var(--primary);
+}
+
+section.Intrests img{
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+}
+
+section.Intrests .card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 2rem;
+}
+
+section.Intrests .card-wrapper .card{
+  background: var(--pure);
+  padding: 3rem 2rem;
+  position: relative;
+  padding-top: 5rem;
+  text-align: center;
+  transition: all .3s ease;
+}
+
+section.Intrests .card-wrapper .card:hover{
+  background: var(--dark);
+  color: var(--pure);
+}
+
+section.Intrests .card-wrapper .card img{
+  position: absolute;
+  top:-2rem;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+section.Intrests .card-wrapper .card h2{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
