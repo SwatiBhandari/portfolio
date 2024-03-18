@@ -1,0 +1,27 @@
+.Footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.Footer_left{
+    color: #fff;
+}
+
+.back_home{
+    position: absolute;
+    right: 9%;
+    bottom: 5%;
+    background-color: #FFC436;
+    padding: .5rem;
+    box-shadow: 0 0 1rem #FFC436;
+    border-radius: .5rem;
+}
+
+.back_home:active{
+    color: #fff;
+}

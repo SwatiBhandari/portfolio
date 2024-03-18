@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #191f36;
+    height: 15vh;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.portfolio_title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: default;
+}
+
+.nav_item{
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_item:hover,
+.nav_item:active{
+    color: #FFC436;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,100 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #191f36;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.Contact_title{
+    margin: 0;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.input_box input{
+    width: 24rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+    background-color: #313750;
+    border: none;
+    color: #fff;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+
+.input_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.input_box2 input{
+    width: 50rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: .8rem;
+    background-color: #313750;
+    border: none;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+
+.form textarea{
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .8rem;
+    background-color: #313750;
+    border: none;
+    resize: none;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.form textarea::placeholder, .input_box2 input::placeholder, .input_box input::placeholder {
+    color: #dad8d8;
+    font-size: .9rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form textarea:focus, .input_box2 input:focus, .input_box input:focus{
+    color: #dad8d8;
+    font-size: .9rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+}
+
+.submit_btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background: #FFC436;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #FFC436;
+    font-size: 1rem;
+    color: #191f36;
+    text-decoration: none;
+    transition: .5s ease;
+    border: none;
+    cursor: pointer;
+}

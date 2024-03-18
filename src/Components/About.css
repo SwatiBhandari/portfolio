@@ -1,0 +1,40 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #262B40;
+    height: 85vh;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.about_right{
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.about_title{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.about_right h2{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+.about_right h3{
+    margin: 0;
+    font-size: 2.6rem;
+    color: #fff;
+}
+
+.about_right p{
+    font-size: 1.3rem;
+    margin: 3rem 0;
+    color: #fff;
+}
+

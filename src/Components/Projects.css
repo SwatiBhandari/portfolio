@@ -1,0 +1,25 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    height: 85vh;
+    background-color:#191f36;
+}
+
+.projects_section{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    padding-left: 9%;
+    padding-right: 9%;
+    gap: 60px;
+}
+
+
+
+.Projects_title{
+    font-size: 3rem;
+    color: #fff;
+}
